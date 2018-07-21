@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+  <head>
+    <title>Laura's Blog</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/blog.css' %}">
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+  </head>
+
+
+  <body>
+    {% for post in posts %}
+      <div class = "post">
+        <h3><a href="/{{post.slug}}">{{ post.title }}</a></h3>
+        <h5>{{post.topic}}  |  {{ post.published_date }}</h5>
+        <p>{{ post.text | linebreaksbr | truncatechars:250 }}</p>
+        </br>
+      </div>
+    {% endfor %}
+    <a href="https://www.facebook.com/laura.craig.98031"><i class="fab fa-facebook-square"></i></a>
+    <a href="https://www.instagram.com/loz_writes/?hl=en"><i class="fab fa-instagram"></i></a>
+  </body>
+</html>

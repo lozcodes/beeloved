@@ -1,0 +1,44 @@
+h3 a {
+  color: #FCA205;
+}
+
+.post {
+  text-align: center;
+  color: #828282;
+}
+
+.body {
+  padding-left: 55px;
+}
+
+.fab fa-facebook-square{
+  text-align: center;
+}
+
+.fab fa-instagram {
+  text-align: center;
+}
+
+@media only screen and (max-width: 599px){
+  .post{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 600px){
+  .post{
+    font-size: 30px;
+  }
+}
+
+@media only sceen and (min-width:768px ){
+
+}
+
+@media only screen and (min-width: 992px){
+
+}
+
+@media only screen and (min-width:1200px){
+
+}
