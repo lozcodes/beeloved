@@ -11,17 +11,40 @@ h3 a {
   padding-left: 55px;
 }
 
-.fab fa-facebook-square{
+.s-m-links{
   text-align: center;
+  padding: 15px;
 }
 
-.fab fa-instagram {
-  text-align: center;
+.pagination a:link, .pagination a:visited{
+    padding: 0.3px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    background-color:#bfbfbf;
+    color: #595959;
+    border-radius: 3px;
+  }
+.pagination a:hover, .pagination a:active{
+    background-color: #bfbfbf;
+  }
+
+.bee-logo-header{
+  text-align:center;
 }
+
 
 @media only screen and (max-width: 599px){
   .post{
     font-size: 20px;
+  }
+  .s-m-links{
+    font-size: 30px;
+    border-radius: 30px;
+  }
+  .bee-logo-header{
+    /*width:60%;
+    height:60%;*/
   }
 }
 
@@ -29,14 +52,35 @@ h3 a {
   .post{
     font-size: 30px;
   }
+  .s-m-links{
+    font-size: 50px;
+    border-radius: 50px;
+  }
+  .bee-logo-header{
+    /*width:70%;
+    height:70%;*/
+  }
 }
 
 @media only sceen and (min-width:768px ){
-
+  .post{
+    font-size: 40px;
+  }
+  .s-m-links{
+    font-size: 60px;
+    border-radius: 60px;
+  }
+  .pagination a{
+    font-size:20px;
+    border-radius:20px;
+  }
 }
 
 @media only screen and (min-width: 992px){
-
+  .pagination a{
+    font-size:20px;
+    border-radius:20px;
+  }
 }
 
 @media only screen and (min-width:1200px){
