@@ -80,8 +80,8 @@ DATABASES = {
         'NAME': 'myblog',
         'USER': 'laura',
         'PASSWORD': 'pTpyanThy031',
-        'HOST': '209.97.137.94',
-        'PORT': '22',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
