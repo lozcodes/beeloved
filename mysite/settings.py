@@ -65,7 +65,7 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
             ],
         },
-    },"
+    },
 ]
 
 WSGI_APPLICATION = 'mysite.wsgi.application'
@@ -81,7 +81,7 @@ DATABASES = {
         'USER': 'laura',
         'PASSWORD': 'pTpyanThy031',
         'HOST': '209.97.137.94',
-        'PORT': '22"',
+        'PORT': '22',
     }
 }
 
