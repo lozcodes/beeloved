@@ -25,7 +25,7 @@ SECRET_KEY = 't*ho6vkbep=2=i8(tdt+1k#j97m4=se6u*r1shz4c*d(58n+n7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'www.beeloved.ie']
+ALLOWED_HOSTS = ['209.97.137.94', 'www.beeloved.ie']
 
 
 # Application definition
