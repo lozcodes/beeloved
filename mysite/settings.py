@@ -65,7 +65,7 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
             ],
         },
-    },
+    },"
 ]
 
 WSGI_APPLICATION = 'mysite.wsgi.application'
@@ -79,9 +79,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'myblog',
         'USER': 'laura',
-        'PASSWORD': 'WaFEr34091',
+        'PASSWORD': 'pTpyanThy031',
         'HOST': '209.97.137.94',
-        'PORT': '22',
+        'PORT': '22"',
     }
 }
 
