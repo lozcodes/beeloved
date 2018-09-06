@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 't*ho6vkbep=2=i8(tdt+1k#j97m4=se6u*r1shz4c*d(58n+n7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['209.97.137.94', 'www.beeloved.ie','beeloved.ie','localhost','127.0.0.1',]
 
